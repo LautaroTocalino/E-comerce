@@ -1,0 +1,204 @@
+body {
+  background-image: url(Nike-sneakers-sports-light-explosion-movement-643420-wallhere.com.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 0px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+
+header {
+  text-align: center;
+  background-color: black;
+  opacity: 0.6;
+}
+
+
+footer {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.gallery {
+  padding: 50px;
+  display: flex;
+}
+
+.galleryItem {
+  flex: 1;
+  padding: 50px;
+}
+
+/*
+.galleryImg {
+  width: 100%;
+
+}
+/*
+
+----------------------------------------------
+
+/* Estilo base para la imagen */
+.galleryImg {
+  width: 100%;
+  /* La imagen ocupará el 100% del contenedor */
+  height: auto;
+  /* Mantener la proporción de aspecto */
+}
+
+/* Cuando el ancho de la ventana sea de hasta 600px */
+@media (max-width: 600px) {
+  .galleryImg {
+    width: 100%;
+    /* Cambia el tamaño de la imagen según tus necesidades */
+  }
+}
+
+/* Cuando el ancho de la ventana esté entre 601px y 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  .galleryImg {
+    width: 50%;
+    /* Cambia el tamaño de la imagen según tus necesidades */
+  }
+}
+
+/* Cuando el ancho de la ventana sea mayor de 900px */
+@media (min-width: 901px) {
+  .galleryImg {
+    width: 20%;
+    /* Cambia el tamaño de la imagen según tus necesidades */
+  }
+}
+
+En este ejemplo,
+hemos definido tres tamaños diferentes para la imagen en función del ancho de la ventana utilizando consultas @media. Puedes ajustar los valores de ancho y los porcentajes según tus necesidades. La clase .imagen-responsiva se aplica a la imagen que deseas hacer responsiva. ----------------------------------------- .productImg {
+  width: 50%;
+}
+
+.productDetails {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 40%;
+  padding: 50px;
+  color: #ebebeb;
+}
+
+.productTitle {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.productDesc {
+  font-style: 24px;
+  color: white;
+}
+
+.colors,
+.sizes {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.color {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+
+.size {
+  padding: 5px 20px;
+  border: 1px solid white;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.productButton {
+  float: right;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.productButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.product {
+  height: 100vh;
+  background-color: #000000;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  opacity: 0.85;
+}
+
+footer {
+  display: flex;
+}
+
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+  color: white;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.fIcons {
+  display: flex;
+}
+
+.fIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+}
